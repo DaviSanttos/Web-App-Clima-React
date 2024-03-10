@@ -9,8 +9,12 @@
       position: absolute;
       background-color: #1eabe8;
       border: 1px solid #088fc9;
-      max-height: 200px;
+      max-height: 200px !important;
       overflow-y: auto;
+}
+
+li {
+  max-width: 200px !important;
 }
 
 .autocomplete-dropdown-container::-webkit-scrollbar {
